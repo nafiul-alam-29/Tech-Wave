@@ -12,27 +12,71 @@
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
-<body class="bg-lime-300 m-0 p-0">
-    <header class="mt-7">
-        <section class="flex justify-around items-center">
+<body class="bg-blue-500 m-0 p-0">
+
+    <!-- header section start -->
+    <header>
+        <section class="flex justify-around items-center mt-6 mb-6 ">
             <div>
-                <h3 class="text-4xl font-bold text-[#FFFFFF]">Tech<span class=" bg-clip-text text-transparent bg-linear-to-r from-[#F7E93F] from-0% via-[#FB09B4] via-50% to-[#9100F8] to-100%">Wave</span></h3>
+                <h3 class="text-4xl md:text-center font-bold text-[#FFFFFF]">Tech<span class=" bg-clip-text text-transparent bg-linear-to-r from-[#F7E93F] from-0% via-[#FB09B4] via-50% to-[#9100F8] to-100%">Wave</span></h3>
             </div>
 
-            <div class="flex">
+            <div class="hidden lg:flex">
                 <a class=" text-base font-medium text-[#FFFFFF]"  href=""> About</a>
                 <a class=" text-base ml-8 font-medium text-[#FFFFFF]" href=""> Episodes</a>
                 <a class=" text-base ml-8 font-medium text-[#FFFFFF]" href=""> Host</a>
             </div>
 
-            <div>
-                <button class="text-lg text-[#FFFFFF] rounded-full bg-linear-to-r from-[#F7E93F] from-0% via-[#FB09B4] via-50% to-[#9100F8] to-100% px-4 py-4"> Subscribe <i class="fa-solid fa-arrow-right"></i></button>
+            <div class="hidden lg:flex">
+                <button class="text-[#FFFFFF] rounded-full bg-linear-to-r from-[#F7E93F] from-0% via-[#FB09B4] via-50% to-[#9100F8] to-100% py-3 px-5"> Subscribe <i class="fa-solid fa-arrow-right"></i></button>
             </div>
+
+            <div class="lg:hidden md:text-center">
+                <img src="assets/hamburger-menu.png" alt="">
+            </div>
+ 
         </section>
+        <hr class="text-neutral-400">
     </header>
 
-    <main>
+    <!-- header section end -->
 
+    <main>
+        <!-- banner section start -->
+
+        <section class=" bg-[url('assets/hero-bg.png')]  bg-cover bg-center bg-no-repeat " >
+
+           <div>
+             <div class=" flex flex-col justify-center items-center h-screen mt-[100px]">
+
+                <img class="absolute w-[200px] h-[200px]  top-[390px] right-[115px] lg:w-[435px] lg:h-[450px] lg:top-[300px] lg:right-[736px]  "src="assets/hero-circle.png" alt="">
+
+                <img class="absolute w-[60px] h-[90px] top-[450px]  right-[185px] lg:top-90 lg:left-217 lg:w-42 lg:h-67  " src="assets/microphone.png" alt="">
+            
+                <button class="bg-[#00FF88] top-[405px]  right-[100px] text-base font-semibold px-4 py-2 rounded-full absolute lg:top-[335px]  lg:right-190">NEW</button>
+           
+               <div>
+                    <h2 class="mt-[460px] text-center text-5xl font-bold lg:text-8xl lg:font-bold  text-white">TechWave</h2>
+                    <br>
+                    <p class="text-center md:whitespace-nowrap mt-2 text-base text-white block">Your daily dose of tech insights, productivity hacks, and personal growth</p>
+               </div>
+
+               
+                <div class=" mt-6 text-center">
+                    
+                   
+                        <button class="text-[#FFFFFF] text-base rounded-full bg-linear-to-r from-[#F7E93F] from-0% via-[#FB09B4] via-50% to-[#9100F8] to-100% mr-2 py-3 px-5"> <img class="inline" src="assets/spotify.png" alt=""> Listen on Spotify </button>
+                    
+
+                        <button class="text-[#00FF88] text-base rounded-full border-2 border-solid py-3 px-5"> <img class="inline m" src="assets/message.png" alt=""> Subscribe</button>
+                    
+                </div>
+           
+            </div>
+          </div>
+        </section>
+
+        
     </main>
 
     <footer>
