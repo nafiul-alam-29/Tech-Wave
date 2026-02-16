@@ -29,7 +29,7 @@
             </div>
 
             <div class="hidden lg:flex">
-                <button class="text-[#FFFFFF] rounded-full bg-linear-to-r from-[#F7E93F] from-0% via-[#FB09B4] via-50% to-[#9100F8] to-100% py-3 px-5"> Subscribe <i class="fa-solid fa-arrow-right"></i></button>
+                <button class="text-[#FFFFFF] rounded-full bg-linear-to-r from-[#F7E93F] from-0% via-[#FB09B4] via-50% to-[#9100F8] to-100% py-3 px-5 "> Subscribe <i class="fa-solid fa-arrow-right"></i></button>
             </div>
 
             <div class="lg:hidden md:text-center">
@@ -43,39 +43,48 @@
     <!-- header section end -->
 
     <main>
-        <!-- banner section start -->
+        
 
-        <section class="mb-20 bg-[url('assets/hero-bg.png')]  bg-cover bg-center bg-no-repeat " >
+       <section class="relative overflow-hidden  py-28 mb-28">
 
-           <div>
-             <div class=" flex flex-col justify-center items-center h-screen mt-[100px]">
+ 
+         <img src="assets/hero-bg.png"alt="wave" class="absolute top-1/2 left-0 w-full -translate-y-1/2 opacity-40 pointer-events-none">
 
-                <img class="absolute w-[200px] h-[200px]  top-[390px] right-[115px] lg:w-[428px] lg:h-[428px] lg:top-[300px] lg:right-[740px]  "src="assets/hero-circle.png" alt="">
+        <div class="relative z-10 container mx-auto text-center px-6">
 
-                <img class="absolute w-[60px] h-[90px] top-[450px]  right-[185px] lg:top-98 lg:left-222 lg:w-32 lg:h-56  " src="assets/microphone.png" alt="">
-            
-                <button class="bg-[#00FF88] top-[405px]  right-[90px] text-base font-semibold px-4 py-2 rounded-full absolute lg:top-[340px]  lg:right-190">NEW</button>
-           
-               <div>
-                    <h2 class="mt-[460px] text-center text-5xl font-bold lg:text-8xl lg:font-bold  text-white">TechWave</h2>
-                    <br>
-                    <p class="text-center md:whitespace-nowrap mt-2 text-base text-gray-300 block">Your daily dose of tech insights, productivity hacks, and personal growth</p>
-               </div>
+    
+          <div class="relative mx-auto w-52 h-52 md:w-64 md:h-64 left-13 rounded-full flex items-center justify-center shadow-2xl">
+           <img src="assets/hero-circle.png" alt="">
 
-               
-                <div class=" mt-6 text-center">
-                    
-                   
-                        <button class="text-[#FFFFFF] text-base rounded-full bg-linear-to-r from-[#F7E93F] from-0% via-[#FB09B4] via-50% to-[#9100F8] to-100% mr-2 py-3 px-5"> <img class="inline" src="assets/spotify.png" alt=""> Listen on Spotify </button>
-                    
+              <span class="absolute top-8 right-10 bg-green-400 text-black text-xs font-semibold px-3 py-1 rounded-full">NEW
+              </span>
 
-                        <button class="text-[#00FF88] text-base rounded-full border-2 border-solid py-3 px-5"> <img class="inline m" src="assets/message.png" alt=""> Subscribe</button>
-                    
-                </div>
-           
-            </div>
-          </div>
-        </section>
+      
+        <img class="w-50 h-35 text-white relative  top-1 right-42 hover:scale-105 transition duration-300 shadow-lg"  src="assets/microphone.png" alt="">
+    </div>
+
+    <h1 class="text-4xl md:text-5xl font-extrabold text-white mt-10">TechWave </h1>
+    <p class="text-gray-300 mt-4 max-w-xl mx-auto">
+      Your daily dose of tech insights, productivity hacks, and personal growth
+    </p>
+
+    <div class="flex justify-center gap-4 mt-8 flex-wrap">
+      <a href="#"class="inline-flex items-center gap-2 px-6 py-3 rounded-full text-white font-medium bg-gradient-to-r from-yellow-400 via-pink-500 to-purple-600 hover:scale-105 transition duration-300 shadow-lg">
+      <img src="assets/spotify.png" alt=""> Listen On Spotify
+      </a>
+
+    
+      <a href="#"
+         class="px-6 py-3 rounded-full border border-green-400 text-green-400 font-medium
+                hover:bg-green-400 hover:text-black transition duration-300">
+        Subscribe
+      </a>
+
+    </div>
+
+  </div>
+</section>
+
 
         <!-- banner section end -->
 
@@ -84,7 +93,7 @@
 
         <section>
 
-            <div class="m-auto text-center">
+            <div class="m-auto text-center mb-32">
                 <h2 class="mb-4 text-5xl font-bold text-[#FFFFFF]">About The Podcast</h2>
                 <p class="text-base text-gray-300"> TechWave is your go-to podcast for staying ahead in the fast-paced world of technology. <br>
                     We break down complex topics into digestible insights, explore productivity strategies that actually work, <br>
@@ -102,7 +111,7 @@
             <div class="grid grid-cols-2 gap-6 justify-items-stretch   lg:grid lg:grid-cols-4 lg:gap-20 lg:justify-items-stretch lg:place-items-center m-auto mt-20 mb-32 max-w-7xl">
     
 
-            <!--  -->
+            
                 <div>
                     <h2 class=" text-4xl text-center lg:text-5xl font-extrabold text-[#00FF88] mb-4 p-0 lg:text-center">150K+</h2>
                     <p class="text-base text-center text-gray-300"> MONTHLY LISTENERS</p>
@@ -130,9 +139,9 @@
 
         <!-- why choose section start -->
 
-        <section class="">
-            <div class="mt-32 ">
-                <h1 class="text-center text-5xl font-extrabold text-[#FFFFFF] mb-10"> Why Choose TechWave</h1>
+        <section class="bg-[#230E3D]">
+            <div class=" ">
+                <h1 class="text-center text-5xl font-extrabold text-[#FFFFFF] py-10 mb-10"> Why Choose TechWave</h1>
             <section class="bg-[#230E3D] py-16 px-6">
                 <div class="max-w-7xl mx-auto">
                  <div class="grid gap-8 grid-cols-1 md:grid-cols-2 lg:grid-rows-3">
@@ -297,7 +306,7 @@
           </a>
 
           <a href="#" class="w-10 h-10 flex items-center justify-center rounded-full border border-[#533C72] ">
-            <img src="assets/twitter.png" alt="">
+            <img src="assets/x.png" alt="">
           </a>
 
           <a href="#" class="w-10 h-10 flex items-center justify-center rounded-full border border-[#533C72]">
@@ -316,24 +325,22 @@
       </div>
     </section>
 
+    <!-- meet host end -->
+     <!-- main content part end -->
 
     </main>
 
+    <!--  footer start-->
+
     <footer>
         <section class="relative bg-[#1a0833] bg-[url('assets/footer-bg.png')]  bg-cover bg-center bg-no-repeat py-16 overflow-hidden">
+          <div class="container mx-auto text-center text-white relative z-10">
 
-  
+           <h2 class="text-5xl md:text-7xl  font-extrabold">
+           Tech<span class=" bg-clip-text text-transparent bg-linear-to-r from-[#F7E93F] from-0% via-[#FB09B4] via-50% to-[#9100F8] to-100%">Wave</span>
+           </h2>
 
-  <!-- Content -->
-  <div class="container mx-auto text-center text-white relative z-10">
-
-    <!-- Logo -->
-    <h2 class="text-5xl md:text-7xl  font-extrabold">
-      Tech<span class=" bg-clip-text text-transparent bg-linear-to-r from-[#F7E93F] from-0% via-[#FB09B4] via-50% to-[#9100F8] to-100%">Wave</span>
-    </h2>
-
-    <!-- Social Links -->
-    <div class="flex justify-center items-center gap-12 w-[400px] lg:w-[544px]  m-auto mt-6 text-sm text-gray-300">
+         <div class="flex justify-center items-center gap-12 w-[400px] lg:w-[544px]  m-auto mt-6 text-sm text-gray-300">
 
       <a href="#" class="flex items-center gap-2 hover:text-white transition">
         <img src="assets/spotify.png" class="w-4 h-4" alt=""> Spotify
@@ -354,16 +361,13 @@
         Twitter
       </a>
 
-    </div>
+      </div>
+      <p class="text-gray-400 text-sm mt-6"> © 2026 TechWave Podcast. All rights reserved.</p>
 
-    <!-- Copyright -->
-    <p class="text-gray-400 text-sm mt-6">
-      © 2026 TechWave Podcast. All rights reserved.
-    </p>
-
-  </div>
-</section>
-
+      </div>
+      </section>
     </footer>
+
+        <!-- footer end -->
 </body>
 </html>
